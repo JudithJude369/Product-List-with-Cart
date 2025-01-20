@@ -1,8 +1,16 @@
+import data from '@/services/data.json';
+import CartList from '@/components/CartList';
+
 const Cart = () => {
   return (
-    <div>
+    <main>
       <h1>cart</h1>
-    </div>
+      <ul>
+        {data.map((data, i) => (
+          <CartList data={data} key={i} />
+        ))}
+      </ul>
+    </main>
   );
 };
 
