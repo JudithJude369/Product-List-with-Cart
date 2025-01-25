@@ -95,6 +95,7 @@
   select {
     font-family: inherit;
     font-size: inherit;
+    color: inherit;
   }
 
   /* Make sure textareas without a rows attribute are not tiny */
@@ -107,6 +108,12 @@
     scroll-margin-block: 5ex;
   }
 
+  /* Content Styles */
+
+  /* .btn {
+    top: 92%;
+  } */
+
   .attribution {
     margin-top: 5em;
     font-size: 0.687rem;
@@ -117,5 +124,9 @@
   }
 
   @media (min-width: 1024px) {
+    .position {
+      right: 10%;
+      top: 5%;
+    }
   }
 }
