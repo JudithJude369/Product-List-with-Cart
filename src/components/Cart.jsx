@@ -1,5 +1,6 @@
 import data from '@/services/data.json';
 import CartList from '@/components/CartList';
+import YourCart from './YourCart';
 
 const Cart = () => {
   return (
@@ -10,8 +11,9 @@ const Cart = () => {
           <CartList data={data} key={i} />
         ))}
       </ul>
-      <h2 className="block lg:hidden ">many men</h2>
-      <h2 className="absolute position hidden lg:block">many men</h2>
+      <div className="lg:absolute position ">
+        <YourCart />
+      </div>
     </main>
   );
 };

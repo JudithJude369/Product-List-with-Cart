@@ -110,9 +110,10 @@
 
   /* Content Styles */
 
-  /* .btn {
-    top: 92%;
-  } */
+  .btn {
+    top: 90%;
+    left: 25%;
+  }
 
   .attribution {
     margin-top: 5em;
@@ -121,12 +122,19 @@
   }
 
   @media (min-width: 768px) {
+    .btn {
+      top: 94%;
+      left: 17%;
+    }
   }
 
   @media (min-width: 1024px) {
     .position {
-      right: 10%;
-      top: 5%;
+      left: 76%;
+      top: 3%;
+    }
+    .btn {
+      left: 24%;
     }
   }
 }
