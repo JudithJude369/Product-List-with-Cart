@@ -115,6 +115,11 @@
     left: 25%;
   }
 
+  .orderPosition {
+    top: 5%;
+    left: 10%;
+  }
+
   .attribution {
     margin-top: 5em;
     font-size: 0.687rem;
@@ -129,12 +134,17 @@
   }
 
   @media (min-width: 1024px) {
-    .position {
+    .cartPosition {
       left: 76%;
       top: 3%;
     }
     .btn {
       left: 24%;
+    }
+
+    .orderPosition {
+      top: 15%;
+      left: 40%;
     }
   }
 }

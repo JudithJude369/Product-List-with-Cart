@@ -1,7 +1,7 @@
 import data from '@/services/data.json';
 import CartList from '@/components/CartList';
 import YourCart from './YourCart';
-
+import OrderConfirmation from './OrderConfirmation';
 const Cart = () => {
   return (
     <main className="py-8 px-6 relative ">
@@ -11,8 +11,11 @@ const Cart = () => {
           <CartList data={data} key={i} />
         ))}
       </ul>
-      <div className="lg:absolute position ">
+      <div className="lg:absolute cartPosition ">
         <YourCart />
+      </div>
+      <div className="absolute orderPosition">
+        <OrderConfirmation />
       </div>
     </main>
   );

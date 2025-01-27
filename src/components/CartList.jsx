@@ -1,5 +1,6 @@
 import Button from '@/components/Button';
 import addToCart from '@/assets/images/icon-add-to-cart.svg';
+
 const CartList = ({ data }) => {
   return (
     <main>
